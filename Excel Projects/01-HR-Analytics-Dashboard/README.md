@@ -41,26 +41,49 @@ Created charts based on Pivot Tables and developed an interactive dashboard.
 
 ## Files Included
 
-### Dataset
+### HR Raw Dataset
 
-* HR Data.xlsx (Original Dataset)
+* HR_Raw_Data.xlsx (Original Dataset)
 
-### Dashboard Workbook
+### HR Dashboard Workbook
 
-* HR_Master_Data.xlsx
+* HR_Analytics_Dashboard.xlsx
 
-### Dashboard Image
+### HR Dashboard Image
 
 * Dashboard.png
 
 ## Workbook Structure
 
-* Employee Travel Details
-* Employee Experience
-* Employee Job Details
-* Dashboard Objective
-* Pivot Tables and Charts
-* HR Dashboard
+### Employee Job Details(Sheet 1)
+- Imported from the original dataset using Power Query.
+- Contains employee job-related information such as department, job role, salary, and other attributes.
+- No transformations or modifications were applied to this sheet.
+
+### Employee Travel Details(Sheet 2)
+- Imported from the original dataset using Power Query.
+- Contains employee business travel information.
+- No transformations or modifications were applied to this sheet.
+
+### Employee Experience(Sheet 3)
+- Imported from the original dataset using Power Query.
+- Acts as the primary data model used for analysis were Employee Job Details and Employee Travel Details files data are merge.
+- Performed data cleaning and transformations.
+- Added calculated columns and derived fields to support analysis and dashboard creation.
+
+### Dashboard Objective(Sheet 4)
+- Defines the business requirements and key questions to be answered through the dashboard.
+- Identifies the KPIs and metrics used for workforce analysis.
+
+### Pivot Tables and Charts(Sheet 5)
+- Contains Pivot Tables created from the cleaned dataset.
+- Includes supporting charts and visualizations used in the dashboard.
+- Serves as the analytical layer for generating insights.
+
+### HR Dashboard(Sheet 6)
+- Interactive dashboard built using Pivot Tables, Pivot Charts, and Slicers.
+- Provides a consolidated view of key HR metrics and employee trends.
+- Enables analysis of employee demographics, attrition patterns, and workforce distribution.
 
 ## Key KPIs
 
@@ -69,7 +92,6 @@ Created charts based on Pivot Tables and developed an interactive dashboard.
 * Attrition Rate
 * Average Age
 * Average Salary
-* Average Years at Company
 
 ## Dashboard Features
 
