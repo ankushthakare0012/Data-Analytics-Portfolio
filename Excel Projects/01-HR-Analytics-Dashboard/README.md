@@ -106,7 +106,7 @@ Created charts based on Pivot Tables and developed an interactive dashboard.
 
 ## Dashboard Preview
 
-![HR Dashboard](HR_Dashboard_Images/HR_Analytics_Dashboard.png)
+![HR Analytics Dashboard](HR%20Dashboard%20Images/HR%20Analytics%20Dashboard.png)
 
 ## Skills Demonstrated
 
