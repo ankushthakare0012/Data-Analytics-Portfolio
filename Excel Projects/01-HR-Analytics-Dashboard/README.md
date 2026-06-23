@@ -51,25 +51,28 @@ Created charts based on Pivot Tables and developed an interactive dashboard.
 
 ### HR Dashboard Image
 
-* Dashboard.png
+* HR Analytics Dashboard.png
 
 ## Workbook Structure
 
-### Employee Job Details(Sheet 1)
+### Employee Job Details (Sheet 1)
 - Imported from the original dataset using Power Query.
+- Acts as the primary data model used for analysis.
 - Contains employee job-related information such as department, job role, salary, and other attributes.
-- No transformations or modifications were applied to this sheet.
+- Data from the **Employee Travel Details** and **Employee Experience** sheets was merged into this sheet using Power Query.
+- Performed data cleaning, transformations, and created derived columns to support analysis and dashboard creation.
 
-### Employee Travel Details(Sheet 2)
+### Employee Travel Details (Sheet 2)
 - Imported from the original dataset using Power Query.
 - Contains employee business travel information.
-- No transformations or modifications were applied to this sheet.
+- Used as a supporting dataset for enriching the primary data model.
+- No direct transformations or modifications were applied to this sheet.
 
-### Employee Experience(Sheet 3)
+### Employee Experience (Sheet 3)
 - Imported from the original dataset using Power Query.
-- Acts as the primary data model used for analysis were Employee Job Details and Employee Travel Details files data are merge.
-- Performed data cleaning and transformations.
-- Added calculated columns and derived fields to support analysis and dashboard creation.
+- Contains employee experience-related information.
+- Used as a supporting dataset for enriching the primary data model.
+- No direct transformations or modifications were applied to this sheet.
 
 ### Dashboard Objective(Sheet 4)
 - Defines the business requirements and key questions to be answered through the dashboard.
